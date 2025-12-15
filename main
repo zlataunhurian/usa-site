@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Титульна сторінка</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .cover-page {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4; /* Зміна фону для кращого вигляду титулки */
+        }
+        .cover-page h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            color: #333;
+        }
+        .cover-page p {
+            font-size: 1.5em;
+            margin: 0.5em 0;
+            color: #555;
+        }
+        .cover-page .author-name {
+            font-size: 2em;
+            margin-top: 1.5em;
+            color: #1a73e8;
+        }
+        .cover-link {
+            margin-top: 50px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cover-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <main class="cover-page">
+        <p class="author-name">Унгурян Злата Іванівна</p>
+        <p>Факультет міжнародної торгівлі та права</p>
+        <h1>Інформаційні технології у системі забезпечення економічної безпеки держави</h1>
+        
+        <a href="main_content.html" class="cover-link">Перейти до огляду</a>
+    </main>
+</body>
+</html>
